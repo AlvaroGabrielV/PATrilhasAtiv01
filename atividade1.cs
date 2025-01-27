@@ -7,8 +7,8 @@ namespace att00
 		public static void Main()
 		{	
 			Console.Write("Insira um numero: ");
-			int age = Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine("O numero inserido é: " + age);
+			int numero = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("O numero inserido é: " + numero);
 			Console.WriteLine();
 			Console.WriteLine("Aperte qualquer tecla para continuar...");
 			Console.ReadKey(true);
